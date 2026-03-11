@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poolside | Case Study | Big Room Tech</title>
+  <meta name="description" content="How Big Room Tech supported Poolside with strategic advisory and operational structure.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    .cs-hero {
+      padding: 120px 24px 60px;
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+    .cs-tags { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+    .cs-tag {
+      background: var(--gray-100);
+      padding: 6px 14px;
+      border-radius: 100px;
+      font-size: 13px;
+      font-weight: 500;
+      font-family: var(--font-display);
+      letter-spacing: 0.02em;
+    }
+    .cs-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(40px, 6vw, 72px);
+      font-weight: 800;
+      line-height: 1.05;
+      margin-bottom: 20px;
+    }
+    .cs-tagline {
+      font-size: 18px;
+      color: var(--gray-700);
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+    .cs-meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      padding: 32px;
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg);
+      max-width: 600px;
+    }
+    .cs-meta-item label {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gray-500);
+      margin-bottom: 6px;
+      font-family: var(--font-display);
+    }
+    .cs-meta-item p { font-size: 15px; font-weight: 500; }
+    .cs-images {
+      background: var(--gray-50);
+      padding: 60px 24px;
+      margin-bottom: 0;
+    }
+    .cs-images-grid {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 16px;
+    }
+    .cs-images-grid img {
+      width: 100%;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--gray-200);
+    }
+    .cs-body {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+    .cs-body h2 {
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-weight: 700;
+      margin: 48px 0 16px;
+    }
+    .cs-body p { font-size: 17px; line-height: 1.75; color: var(--gray-700); margin-bottom: 20px; }
+    .cs-body ul { padding-left: 24px; margin-bottom: 24px; }
+    .cs-body li { font-size: 17px; line-height: 1.75; color: var(--gray-700); margin-bottom: 8px; }
+    .cs-other {
+      background: var(--black);
+      color: var(--white);
+      padding: 80px 24px;
+    }
+    .cs-other-inner { max-width: var(--max-width); margin: 0 auto; }
+    .cs-other h2 {
+      font-family: var(--font-display);
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 8px;
+    }
+    .cs-other h3 {
+      font-family: var(--font-display);
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 48px;
+    }
+    .cs-other-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .cs-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      text-decoration: none;
+      color: var(--white);
+      transition: background var(--transition);
+    }
+    .cs-card:hover { background: rgba(255,255,255,0.1); }
+    .cs-card-tags { display: flex; gap: 6px; margin-bottom: 16px; flex-wrap: wrap; }
+    .cs-card-tag {
+      background: rgba(255,255,255,0.1);
+      padding: 4px 10px;
+      border-radius: 100px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .cs-card h4 { font-family: var(--font-display); font-size: 22px; font-weight: 700; margin-bottom: 10px; }
+    .cs-card p { font-size: 14px; color: rgba(255,255,255,0.6); line-height: 1.6; }
+    @media (max-width: 768px) {
+      .cs-images-grid { grid-template-columns: 1fr; }
+      .cs-other-grid { grid-template-columns: 1fr; }
+      .cs-meta { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">
+        <img src="https://cdn.prod.website-files.com/69373f98049e8f6fb4d12e27/693741b496c3a05223355adf_bigroomtech_full-logo_black.png" alt="Big Room Tech" height="32">
+      </a>
+      <ul class="nav-links">
+        <li><a href="/about.html">About us</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/blogs.html">Blogs</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="/contact.html" class="btn btn-primary">Get in touch</a>
+      </div>
+      <button class="nav-burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="cs-hero">
+    <div class="cs-tags">
+      <span class="cs-tag">Advisory</span>
+      <span class="cs-tag">Operations</span>
+    </div>
+    <h1>Poolside</h1>
+    <p class="cs-tagline">Supporting builders, founders, and creators in this AI-native era, from hands-on advisory to deep product management.</p>
+    <div class="cs-meta">
+      <div class="cs-meta-item">
+        <label>Objective</label>
+        <p>Prepare all companies to be investor and TGE ready</p>
+      </div>
+      <div class="cs-meta-item">
+        <label>Strategy</label>
+        <p>Weekly cadence meetings, monthly performance reviews and quarterly product updates</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGES -->
+  <section class="cs-images">
+    <div class="cs-images-grid">
+      <img src="https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693861a1ac756fe622a70d3c_Screenshot%202025-12-09%20at%2017.51.12.png" alt="Poolside screenshot 1">
+      <img src="https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693801227fe412e2cb422981_Screenshot%202025-12-09%20at%2010.59.29.png" alt="Poolside screenshot 2">
+      <img src="https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693801a6e7b7f525500cec65_Screenshot%202025-12-09%20at%2011.01.27.png" alt="Poolside screenshot 3">
+    </div>
+  </section>
+
+  <!-- BODY -->
+  <section class="cs-body">
+    <h2>What we did</h2>
+    <p>Over a six-month engagement with Poolside.co, we worked closely with the leadership team to strengthen operational foundations, sharpen product positioning in the Web3 / launchpad ecosystem, and build a clearer path to sustainable growth. Our role combined strategic advisory with hands-on support across operations, product, and go-to-market planning.</p>
+    <p>Key areas of focus:</p>
+    <ul>
+      <li>Operational Structure &amp; Execution Rhythm</li>
+      <li>Product &amp; Positioning Strategy</li>
+      <li>Growth &amp; Partnerships Framework</li>
+    </ul>
+  </section>
+
+  <!-- OTHER PROJECTS -->
+  <section class="cs-other">
+    <div class="cs-other-inner">
+      <h2>Other projects</h2>
+      <h3>See our work</h3>
+      <p style="color:rgba(255,255,255,0.6); margin-bottom:40px;">Welcome to the spotlight, where Big Room Tech adds a splash of magic.</p>
+      <div class="cs-other-grid">
+        <a href="/case-studies/portals.html" class="cs-card">
+          <div class="cs-card-tags">
+            <span class="cs-card-tag">Strategy</span>
+            <span class="cs-card-tag">Operations</span>
+          </div>
+          <h4>Portals</h4>
+          <p>Portals.fi is the DeFi super app powering the world's most versatile on-chain trading, unifying data, execution, yield, and automation across every major blockchain.</p>
+        </a>
+        <a href="/case-studies/runway-strategy.html" class="cs-card">
+          <div class="cs-card-tags">
+            <span class="cs-card-tag">Product</span>
+            <span class="cs-card-tag">Advisory</span>
+          </div>
+          <h4>Runway Strategy</h4>
+          <p>Runway is a culture and ideas shop, specializing in brand, insight, and growth strategy.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="padding:80px 24px; text-align:center; background:var(--white);">
+    <div style="max-width:600px; margin:0 auto;">
+      <h2 style="font-family:var(--font-display); font-size:clamp(28px,4vw,42px); font-weight:800; margin-bottom:16px;">Lets work together</h2>
+      <p style="color:var(--gray-700); margin-bottom:32px;">Ready to transform your product and unlock the full potential of your business? Let's build something great together.</p>
+      <a href="/contact.html" class="btn btn-primary">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="/"><img src="https://cdn.prod.website-files.com/69373f98049e8f6fb4d12e27/693741b496c3a05223355adf_bigroomtech_full-logo_black.png" alt="Big Room Tech" height="28"></a>
+        <p>Strategic &amp; Venture Advisory for AI &amp; Digital Products</p>
+        <div class="footer-newsletter">
+          <p>Join our newsletter to stay up to date.</p>
+          <form name="newsletter" data-netlify="true" class="newsletter-form">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/about.html">About us</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/blogs.html">Blogs</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+13054907748">+1 (305) 490 7748</a></li>
+            <li><a href="mailto:info@bigroomtech.com">info@bigroomtech.com</a></li>
+            <li>111 NE 1st St 8th Floor<br>Miami FL 33132</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow us</h4>
+          <ul>
+            <li><a href="https://twitter.com/bigroomtech" target="_blank">X (Twitter)</a></li>
+            <li><a href="https://www.linkedin.com/company/big-room-tech/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Big Room Tech LLC</p>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
