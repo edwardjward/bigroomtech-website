@@ -1,0 +1,30 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Enables Netlify Identity for login
+publish_mode: editorial_workflow
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "blogs-data"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["AI Strategy", "Product", "Strategy", "Advisory", "Operations", "News"]
+      - { label: "Excerpt", name: "excerpt", widget: "text", hint: "Short summary shown on the blog listing page" }
+      - label: "Cover Image URL"
+        name: "coverImage"
+        widget: "string"
+        hint: "Paste a URL from Unsplash (e.g. https://images.unsplash.com/photo-...?w=800&q=80)"
+        required: false
+      - { label: "Body", name: "body", widget: "markdown" }
