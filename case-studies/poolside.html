@@ -64,17 +64,16 @@
       padding: 60px 24px;
       margin-bottom: 0;
     }
-    .cs-images-grid {
+    .cs-images-inner {
       max-width: var(--max-width);
       margin: 0 auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 16px;
     }
-    .cs-images-grid img {
+    .cs-images-inner img {
       width: 100%;
       border-radius: var(--radius-lg);
       border: 1px solid var(--gray-200);
+      max-height: 480px;
+      object-fit: cover;
     }
     .cs-body {
       max-width: 760px;
@@ -182,12 +181,10 @@
     </div>
   </section>
 
-  <!-- IMAGES -->
+  <!-- IMAGE -->
   <section class="cs-images">
-    <div class="cs-images-grid">
-      <img src="https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693861a1ac756fe622a70d3c_Screenshot%202025-12-09%20at%2017.51.12.png" alt="Poolside screenshot 1">
-      <img src="https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693801227fe412e2cb422981_Screenshot%202025-12-09%20at%2010.59.29.png" alt="Poolside screenshot 2">
-      <img src="https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693801a6e7b7f525500cec65_Screenshot%202025-12-09%20at%2011.01.27.png" alt="Poolside screenshot 3">
+    <div class="cs-images-inner">
+      <img src="https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693861a1ac756fe622a70d3c_Screenshot%202025-12-09%20at%2017.51.12.png" alt="Poolside project screenshot">
     </div>
   </section>
 
