@@ -3,7 +3,7 @@ title: "How Early-Stage Startups Should Think About AI in 2025"
 date: 2025-09-01T09:00:00.000Z
 category: AI Strategy
 excerpt: "For early-stage founders, the pressure to integrate AI can feel overwhelming. Here's a framework for thinking about it clearly — without the hype."
-coverImage: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80
+coverImage: /images/blog/early-stage-startups-ai.png
 ---
 
 For early-stage founders, the pressure to integrate AI can feel overwhelming. Every investor deck mentions it. Every competitor claims to be AI-powered. And the technology itself is evolving so quickly that what was cutting-edge six months ago can feel outdated today.
