@@ -30,36 +30,69 @@
     </div>
   </nav>
 
-  <section class="about-section">
-    <div class="section-label">Who we are</div>
-    <h1 class="section-title">About Big Room Tech</h1>
+  <section class="hero">
+    <div class="hero-tag">About us</div>
+    <h1 class="hero-headline">Onwards, together</h1>
+    <p class="hero-sub">The future of technology belongs to the builders who can combine innovation with discipline, speed with strategy, and vision with execution. <strong>Big Room Tech</strong> exists to support the founders and teams working at that intersection — helping turn ambitious ideas into commercially viable, scalable products.</p>
+    <div class="hero-ctas">
+      <a href="contact.html" class="btn btn-primary">Get in touch</a>
+      <a href="contact.html" class="btn btn-outline">Book a call</a>
+    </div>
+    <div class="hero-image">
+      <img src="https://cdn.prod.website-files.com/69373f98049e8f6fb4d12e27/69373f99049e8f6fb4d12ee0_adrian-cuj-o_9YmCY0bag-unsplash-2.webp" alt="Big Room Tech Office" />
+    </div>
+  </section>
 
-    <div class="about-grid">
-      <div>
-        <p style="font-size:18px; line-height:1.8; color:var(--gray-700); font-weight:300; margin-bottom:24px;">
-          <strong style="font-weight:500; color:var(--black);">Big Room Tech</strong> is a strategic and venture-acceleration advisory firm focused on early-stage and growth-stage technology businesses, with a particular emphasis on artificial intelligence and advanced digital solutions.
-        </p>
-        <p style="font-size:16px; line-height:1.8; color:var(--gray-700); font-weight:300; margin-bottom:24px;">
-          We partner with ambitious founders and leadership teams to transform ideas into commercially viable, scalable products. Our work spans the full journey — from initial strategy through to market positioning, product development, and commercial execution.
-        </p>
-        <p style="font-size:16px; line-height:1.8; color:var(--gray-700); font-weight:300; margin-bottom:32px;">
-          Based in Miami, FL, we work with clients across North America, Europe, and beyond, bringing deep expertise in AI product strategy, venture advisory, and digital transformation.
-        </p>
-        <a href="contact.html" class="btn btn-primary">Work with us</a>
-      </div>
-      <div class="about-img">
-        <img src="https://cdn.prod.website-files.com/69373f98049e8f6fb4d12e27/69373f99049e8f6fb4d12ee0_adrian-cuj-o_9YmCY0bag-unsplash-2.webp" alt="Big Room Tech Office" />
+  <section class="values-section">
+    <div class="values-inner">
+      <div class="section-label">What drives us</div>
+      <h2 class="section-title">Values behind our work</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <h3>Strategic Clarity and Focus</h3>
+          <p>We cut through complexity to help clients align decisions with their core business goals — ensuring every initiative has a clear purpose and measurable outcome.</p>
+        </div>
+        <div class="value-card">
+          <h3>Technical Excellence and Reliability</h3>
+          <p>We believe in robust architecture and scalable systems. Our guidance ensures products are built on solid technical foundations that support growth.</p>
+        </div>
+        <div class="value-card">
+          <h3>Client-Centric Partnership</h3>
+          <p>Our clients are partners, not projects. We embed ourselves in their vision and work alongside their teams to deliver outcomes that matter.</p>
+        </div>
+        <div class="value-card">
+          <h3>Data and Insight-Driven Decisions</h3>
+          <p>We ground our recommendations in evidence rather than assumptions — using data, research, and market insight to guide every strategic choice.</p>
+        </div>
+        <div class="value-card">
+          <h3>Integrated Delivery</h3>
+          <p>We coordinate strategy, design, and engineering into unified teams — eliminating silos and ensuring every workstream moves toward the same goal.</p>
+        </div>
+        <div class="value-card">
+          <h3>Continuous Learning and Innovation</h3>
+          <p>Technology never stands still, and neither do we. We track advances across AI, product, and digital to bring the latest thinking to every engagement.</p>
+        </div>
       </div>
     </div>
   </section>
+
+  <div class="about-cta">
+    <h2>Let's work together</h2>
+    <p>Transform your product and unlock the full potential of the most exciting time in the advancement of technology.</p>
+    <div class="hero-ctas">
+      <a href="contact.html" class="btn btn-primary">Get in touch</a>
+      <a href="contact.html" class="btn btn-outline">Book a call</a>
+    </div>
+  </div>
 
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-brand">
         <a href="index.html" class="nav-logo"><span class="logo-text">Big Room Tech</span></a>
         <p>Join our newsletter to stay up to date.</p>
-        <form class="newsletter-form" id="newsletterForm">
-          <input type="email" placeholder="Enter your email" required />
+        <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="newsletter" />
+          <input type="email" name="email" placeholder="Enter your email" required />
           <button type="submit" class="btn btn-primary">Subscribe</button>
         </form>
         <p class="footer-legal">By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company.</p>
