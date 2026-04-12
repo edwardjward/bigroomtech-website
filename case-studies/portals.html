@@ -134,40 +134,33 @@
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-brand">
-        <a href="/"><img src="https://cdn.prod.website-files.com/69373f98049e8f6fb4d12e27/693741b496c3a05223355adf_bigroomtech_full-logo_black.png" alt="Big Room Tech" height="28"></a>
-        <p>Strategic &amp; Venture Advisory for AI &amp; Digital Products</p>
-        <div class="footer-newsletter">
-          <p>Join our newsletter to stay up to date.</p>
-          <form name="newsletter" data-netlify="true" class="newsletter-form">
-            <input type="email" name="email" placeholder="Enter your email" required>
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
-        </div>
+        <a href="/" class="nav-logo"><span class="logo-text">Big Room Tech</span></a>
+        <p>Join our newsletter to stay up to date.</p>
+        <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="newsletter" />
+          <input type="email" name="email" placeholder="Enter your email" required />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <p class="footer-legal">By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company.</p>
       </div>
-      <div class="footer-links">
+      <div class="footer-cols">
         <div class="footer-col">
           <h4>Quick Links</h4>
-          <ul>
-            <li><a href="/about.html">About us</a></li>
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/blogs.html">Blogs</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-          </ul>
+          <a href="/about.html">About us</a>
+          <a href="/services.html">Services</a>
+          <a href="/blogs.html">Blogs</a>
+          <a href="/contact.html">Contact</a>
         </div>
         <div class="footer-col">
           <h4>Contact</h4>
-          <ul>
-            <li><a href="tel:+13054907748">+1 (305) 490 7748</a></li>
-            <li><a href="mailto:info@bigroomtech.com">info@bigroomtech.com</a></li>
-            <li>111 NE 1st St 8th Floor<br>Miami FL 33132</li>
-          </ul>
+          <a href="tel:+13054907748">+1 (305) 490 7748</a>
+          <a href="mailto:info@bigroomtech.com">info@bigroomtech.com</a>
+          <p>111 NE 1st St, 8th Floor,<br>Miami, FL 33132</p>
         </div>
         <div class="footer-col">
           <h4>Follow us</h4>
-          <ul>
-            <li><a href="https://twitter.com/bigroomtech" target="_blank">X (Twitter)</a></li>
-            <li><a href="https://www.linkedin.com/company/big-room-tech/" target="_blank">LinkedIn</a></li>
-          </ul>
+          <a href="https://twitter.com/bigroomtech" target="_blank">X (Twitter)</a>
+          <a href="https://www.linkedin.com/company/big-room-tech/" target="_blank">LinkedIn</a>
         </div>
       </div>
     </div>
