@@ -3,7 +3,7 @@ title: "The AI Shift in Tech Teams: Are We Sleepwalking Into a Talent Gap?"
 date: 2025-08-18T09:00:00.000Z
 category: AI
 excerpt: "Over the last two years, development workflows have changed more than in the previous decade. AI-assisted coding, automated testing, and intelligent code review are no longer experimental — they are becoming standard practice."
-coverImage: https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693ae7b29f879dafcd0efb3c_16.png
+coverImage: https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693ae210d7b18dcea9c0130d_22.png
 ---
 
 Over the last two years, development workflows have changed more than in the previous decade. AI-assisted coding, automated testing, and intelligent code review are no longer experimental — they are becoming standard practice in forward-thinking engineering teams.
