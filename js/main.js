@@ -21,13 +21,15 @@ if (newsletterForm) {
   newsletterForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const btn = newsletterForm.querySelector('button');
-    btn.textContent = 'Subscribed! ✓';
-    btn.disabled = true;
-    newsletterForm.querySelector('input').value = '';
-    setTimeout(() => {
-      btn.textContent = 'Subscribe';
-      btn.disabled = false;
-    }, 3000);
+    const formData = new FormData(newsletterForm);
+    fetch('/', { method: 'POST', body: formData })
+      .then(() => {
+        btn.textContent = 'Subscribed! ✓';
+        btn.disabled = true;
+        newsletterForm.querySelector('input[type="email"]').value = '';
+        setTimeout(() => { btn.textContent = 'Subscribe'; btn.disabled = false; }, 3000);
+      })
+      .catch(() => { btn.textContent = 'Error — try again'; });
   });
 }
 
@@ -37,13 +39,15 @@ if (contactForm) {
   contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const btn = contactForm.querySelector('button[type="submit"]');
-    btn.textContent = 'Message sent! ✓';
-    btn.disabled = true;
-    contactForm.reset();
-    setTimeout(() => {
-      btn.textContent = 'Send Message';
-      btn.disabled = false;
-    }, 4000);
+    const formData = new FormData(contactForm);
+    fetch('/', { method: 'POST', body: formData })
+      .then(() => {
+        btn.textContent = 'Message sent! ✓';
+        btn.disabled = true;
+        contactForm.reset();
+        setTimeout(() => { btn.textContent = 'Send Message'; btn.disabled = false; }, 4000);
+      })
+      .catch(() => { btn.textContent = 'Error — try again'; });
   });
 }
 
