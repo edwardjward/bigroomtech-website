@@ -1,6 +1,6 @@
 ---
 title: "Harnessing Artificial Intelligence: Compete, Grow, and Protect Jobs"
-date: 2025-10-07T10:00:00.000+01:00
+date: 2025-06-03T10:00:00.000+01:00
 category: AI
 excerpt: Artificial intelligence is no longer a future technology. It is here,
   it is accelerating, and it is reshaping how businesses compete, operate, and
