@@ -1,8 +1,10 @@
 ---
 title: "Decentralised Finance: Early Days of a Mainstream Revolution"
-date: 2025-07-14T09:00:00.000Z
+date: 2025-08-05T10:00:00.000+01:00
 category: Web3
-excerpt: "Over the past few years, decentralised finance has moved from a niche experiment on the fringes of crypto to a serious area of innovation for the wider financial system."
+excerpt: Over the past few years, decentralised finance has moved from a niche
+  experiment on the fringes of crypto to a serious area of innovation for the
+  wider financial system.
 coverImage: https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693ae1e09f879dafcd0ef12c_19.png
 ---
 
