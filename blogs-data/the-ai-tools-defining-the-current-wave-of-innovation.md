@@ -1,8 +1,10 @@
 ---
-title: "The AI Tools Defining the Current Wave of Innovation"
-date: 2025-09-15T00:00:00.000Z
+title: The AI Tools Defining the Current Wave of Innovation
+date: 2025-12-09T01:00:00.000+00:00
 category: AI Strategy
-excerpt: "The artificial intelligence landscape moves rapidly. Here are the most influential AI tools currently shaping the industry and setting the pace for what comes next."
+excerpt: The artificial intelligence landscape moves rapidly. Here are the most
+  influential AI tools currently shaping the industry and setting the pace for
+  what comes next.
 coverImage: /images/blog/ai-tools-defining-innovation.png
 ---
 
