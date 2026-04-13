@@ -1,8 +1,9 @@
 ---
 title: "After the AI Hype: What Comes Next (and What Actually Matters)"
-date: 2025-08-23T00:00:00.000Z
+date: 2025-11-04T01:00:00.000+00:00
 category: AI Strategy
-excerpt: "As the AI hype cycle matures, the real question is no longer whether AI matters — but how to build with it sustainably and strategically."
+excerpt: As the AI hype cycle matures, the real question is no longer whether AI
+  matters — but how to build with it sustainably and strategically.
 coverImage: https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693bfde953ff28dbe50675d2_23%20(1).png
 ---
 
