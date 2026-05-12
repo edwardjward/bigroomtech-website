@@ -1,10 +1,6 @@
 {
   "_comment": "Rotating topics for automated blog posts. Each fortnight the next unused topic is consumed, then moved to 'used'. Add new ones to 'queue' anytime.",
   "queue": [
-    {"topic": "Humanoid robotics: closer than we think, or further than we hope?", "category": "Robotics"},
-    {"topic": "The state of AI coding agents in 2026", "category": "AI"},
-    {"topic": "Why most enterprise AI pilots still fail to scale", "category": "AI Strategy"},
-    {"topic": "Edge AI: the quiet revolution in on-device intelligence", "category": "AI"},
     {"topic": "What the next wave of foundation models means for startups", "category": "AI"},
     {"topic": "The economics of LLM inference are finally changing", "category": "AI Infrastructure"},
     {"topic": "Robotics-as-a-Service: the new SaaS playbook?", "category": "Robotics"},
@@ -22,6 +18,10 @@
     {"topic": "Spatial computing: still searching for its moment", "category": "Tech"}
   ],
   "used": [
+    {"topic": "The state of AI coding agents in 2026", "category": "AI", "publishedAt": "2026-01-19T09:00:00.000Z", "slug": "the-state-of-ai-coding-agents-in-2026"},
+    {"topic": "Why most enterprise AI pilots still fail to scale", "category": "AI Strategy", "publishedAt": "2026-02-16T09:00:00.000Z", "slug": "why-most-enterprise-ai-pilots-still-fail-to-scale"},
+    {"topic": "Edge AI: the quiet revolution in on-device intelligence", "category": "AI", "publishedAt": "2026-03-16T09:00:00.000Z", "slug": "edge-ai-the-quiet-revolution-in-on-device-intelligence"},
+    {"topic": "Humanoid robotics: closer than we think, or further than we hope?", "category": "Robotics", "publishedAt": "2026-04-20T09:00:00.000Z", "slug": "humanoid-robotics-closer-than-we-think"},
     {"topic": "How agentic AI is reshaping product teams", "category": "AI", "publishedAt": "2026-05-12T09:00:00.000Z", "slug": "how-agentic-ai-is-reshaping-product-teams"}
   ]
 }
