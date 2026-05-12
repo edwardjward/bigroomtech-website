@@ -1,7 +1,6 @@
 {
   "_comment": "Rotating topics for automated blog posts. Each fortnight the next unused topic is consumed, then moved to 'used'. Add new ones to 'queue' anytime.",
   "queue": [
-    {"topic": "How agentic AI is reshaping product teams", "category": "AI"},
     {"topic": "Humanoid robotics: closer than we think, or further than we hope?", "category": "Robotics"},
     {"topic": "The state of AI coding agents in 2026", "category": "AI"},
     {"topic": "Why most enterprise AI pilots still fail to scale", "category": "AI Strategy"},
@@ -22,5 +21,7 @@
     {"topic": "The new shape of engineering teams", "category": "Engineering"},
     {"topic": "Spatial computing: still searching for its moment", "category": "Tech"}
   ],
-  "used": []
+  "used": [
+    {"topic": "How agentic AI is reshaping product teams", "category": "AI", "publishedAt": "2026-05-12T09:00:00.000Z", "slug": "how-agentic-ai-is-reshaping-product-teams"}
+  ]
 }
