@@ -1,0 +1,26 @@
+{
+  "_comment": "Rotating topics for automated blog posts. Each fortnight the next unused topic is consumed, then moved to 'used'. Add new ones to 'queue' anytime.",
+  "queue": [
+    {"topic": "How agentic AI is reshaping product teams", "category": "AI"},
+    {"topic": "Humanoid robotics: closer than we think, or further than we hope?", "category": "Robotics"},
+    {"topic": "The state of AI coding agents in 2026", "category": "AI"},
+    {"topic": "Why most enterprise AI pilots still fail to scale", "category": "AI Strategy"},
+    {"topic": "Edge AI: the quiet revolution in on-device intelligence", "category": "AI"},
+    {"topic": "What the next wave of foundation models means for startups", "category": "AI"},
+    {"topic": "The economics of LLM inference are finally changing", "category": "AI Infrastructure"},
+    {"topic": "Robotics-as-a-Service: the new SaaS playbook?", "category": "Robotics"},
+    {"topic": "How AI is changing the venture capital game", "category": "Venture"},
+    {"topic": "Building a moat in the age of foundation models", "category": "Startups"},
+    {"topic": "The rise of vertical AI: specialised over general", "category": "AI Strategy"},
+    {"topic": "Why product management is the new bottleneck in AI teams", "category": "Product"},
+    {"topic": "Synthetic data: the secret weapon of modern AI", "category": "AI"},
+    {"topic": "AI security: the threat surface no one is talking about enough", "category": "Security"},
+    {"topic": "The post-app era: what comes after mobile?", "category": "Tech"},
+    {"topic": "Quantum computing's first real-world wins", "category": "Quantum"},
+    {"topic": "AI in healthcare: hype, hope, and what's actually shipping", "category": "AI"},
+    {"topic": "How design systems are evolving in an AI-first world", "category": "Design"},
+    {"topic": "The new shape of engineering teams", "category": "Engineering"},
+    {"topic": "Spatial computing: still searching for its moment", "category": "Tech"}
+  ],
+  "used": []
+}
