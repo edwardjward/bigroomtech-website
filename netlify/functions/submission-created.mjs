@@ -1,7 +1,10 @@
 // Netlify Function: fires on every form submission (built-in "submission-created" event).
 // For consultant-application submissions, sends an auto-reply to the applicant via Resend.
 
-const FROM = "Big Room Tech <noreply@bigroomtech.com>";
+// NOTE: sending from Resend's default onboarding@resend.dev while SPF is
+// still pending. Swap to noreply@bigroomtech.com once the send.bigroomtech.com
+// SPF records (MX + TXT) are verified in Resend.
+const FROM = "Big Room Tech <onboarding@resend.dev>";
 const REPLY_TO = "info@bigroomtech.com";
 
 const buildAutoReplyHtml = (firstName) => `
