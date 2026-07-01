@@ -116,9 +116,12 @@ if (applyForm) {
     fetch('/', { method: 'POST', body: new FormData(applyForm) })
       .then((res) => {
         if (!res.ok) throw new Error('Submission failed');
-        applyForm.hidden = true;
-        successEl.hidden = false;
-        successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        btn.textContent = 'Submitted ✓';
+        setTimeout(() => {
+          applyForm.hidden = true;
+          successEl.hidden = false;
+          successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 600);
       })
       .catch(() => {
         btn.disabled = false;
