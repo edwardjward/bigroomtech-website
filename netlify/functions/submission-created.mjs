@@ -51,11 +51,15 @@ export default async (req) => {
       return new Response("No applicant email", { status: 200 });
     }
 
-    const apiKey = Netlify.env.get("RESEND_API_KEY");
+    const apiKey =
+      (typeof Netlify !== "undefined" && Netlify.env?.get?.("RESEND_API_KEY")) ||
+      process.env.RESEND_API_KEY;
     if (!apiKey) {
       console.error("submission-created: RESEND_API_KEY env var missing");
       return new Response("Missing RESEND_API_KEY", { status: 500 });
     }
+
+    console.log(`submission-created: sending auto-reply to ${applicantEmail}`);
 
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
