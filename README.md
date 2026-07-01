@@ -1,10 +1,10 @@
-# Big Room Tech Website — Setup Guide
+# Big Room Tech Website, Setup Guide
 
 **Monthly cost: $0** (replaces your $35/month Webflow plan)
 
 ---
 
-## STEP 1 — Upload to GitHub (5 minutes)
+## STEP 1, Upload to GitHub (5 minutes)
 
 You need a free GitHub account to store your website files. The CMS reads and writes to GitHub.
 
@@ -17,7 +17,7 @@ You need a free GitHub account to store your website files. The CMS reads and wr
 
 ---
 
-## STEP 2 — Deploy to Netlify (5 minutes)
+## STEP 2, Deploy to Netlify (5 minutes)
 
 1. Go to **https://netlify.com** and create a free account (use "Sign up with GitHub")
 2. Click **Add new site → Import an existing project**
@@ -33,9 +33,9 @@ You need a free GitHub account to store your website files. The CMS reads and wr
 
 ---
 
-## STEP 3 — Enable the Blog CMS (5 minutes)
+## STEP 3, Enable the Blog CMS (5 minutes)
 
-This gives you a visual dashboard to write blog posts — no code needed.
+This gives you a visual dashboard to write blog posts, no code needed.
 
 **Enable Netlify Identity:**
 1. In your Netlify dashboard, go to **Site settings → Identity**
@@ -56,7 +56,7 @@ This gives you a visual dashboard to write blog posts — no code needed.
 
 ---
 
-## STEP 4 — Write Your First Blog Post
+## STEP 4, Write Your First Blog Post
 
 1. Go to `https://yoursite.com/admin`
 2. Click **New Blog Posts**
@@ -77,7 +77,7 @@ This gives you a visual dashboard to write blog posts — no code needed.
 
 The filename will match whatever slug the CMS created (you can find it in GitHub under `blogs-data/`).
 
-> **Note:** If you want to avoid this step entirely, ask me to set up a Netlify serverless function that auto-updates the manifest — I can do that in a follow-up.
+> **Note:** If you want to avoid this step entirely, ask me to set up a Netlify serverless function that auto-updates the manifest, I can do that in a follow-up.
 
 ---
 

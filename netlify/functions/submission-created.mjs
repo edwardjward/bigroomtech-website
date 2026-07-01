@@ -7,7 +7,7 @@ const REPLY_TO = "info@bigroomtech.com";
 const buildAutoReplyHtml = (firstName) => `
   <div style="font-family:-apple-system,Segoe UI,Roboto,sans-serif;color:#111;max-width:560px;line-height:1.6;font-size:15px;">
     <p>Hi ${firstName || "there"},</p>
-    <p>Thanks for applying to join the <strong>Big Room Tech</strong> consultant network — we've received your details and CV.</p>
+    <p>Thanks for applying to join the <strong>Big Room Tech</strong> consultant network, we've received your details and CV.</p>
     <p>Our team will review your application and, if there's a fit with our current or upcoming client needs, we'll be in touch shortly to arrange a short vetting call.</p>
     <p>In the meantime, feel free to explore our work at <a href="https://bigroomtech.com">bigroomtech.com</a>.</p>
     <p>Best,<br/>The Big Room Tech team</p>
@@ -19,7 +19,7 @@ const buildAutoReplyHtml = (firstName) => `
 const buildAutoReplyText = (firstName) => `
 Hi ${firstName || "there"},
 
-Thanks for applying to join the Big Room Tech consultant network — we've received your details and CV.
+Thanks for applying to join the Big Room Tech consultant network, we've received your details and CV.
 
 Our team will review your application and, if there's a fit with our current or upcoming client needs, we'll be in touch shortly to arrange a short vetting call.
 
@@ -28,7 +28,7 @@ In the meantime, feel free to explore our work at https://bigroomtech.com.
 Best,
 The Big Room Tech team
 
-—
+-
 Big Room Tech · Porto & Miami
 `;
 
@@ -71,7 +71,7 @@ export default async (req) => {
         from: FROM,
         to: applicantEmail,
         reply_to: REPLY_TO,
-        subject: "Thanks for applying — Big Room Tech",
+        subject: "Thanks for applying, Big Room Tech",
         html: buildAutoReplyHtml(firstName),
         text: buildAutoReplyText(firstName),
       }),

@@ -6,13 +6,13 @@ excerpt: "Technology is evolving faster than at any point in history. At Big Roo
 coverImage: https://cdn.prod.website-files.com/69373f99049e8f6fb4d12ec4/693ade4a192a88b10cff063e_21.png
 ---
 
-Artificial intelligence, digital platforms, and advanced software systems are reshaping entire industries — from finance and healthcare to media, logistics, and education. At Big Room Tech, our role is to help early-stage and growth-stage technology companies navigate this change with confidence, clarity, and commercial focus.
+Artificial intelligence, digital platforms, and advanced software systems are reshaping entire industries, from finance and healthcare to media, logistics, and education. At Big Room Tech, our role is to help early-stage and growth-stage technology companies navigate this change with confidence, clarity, and commercial focus.
 
 ## What We Believe
 
 We believe that building a technology business in 2025 requires more than good ideas and capable engineers. It requires the ability to think clearly about strategy, to make product decisions that align with commercial reality, and to move quickly without losing direction.
 
-Too many promising ventures stall — not because the technology fails, but because the strategic layer is missing. Teams build without a clearly defined market position. Products are launched before the business model is validated. Founders scale operations before the foundations are in place.
+Too many promising ventures stall, not because the technology fails, but because the strategic layer is missing. Teams build without a clearly defined market position. Products are launched before the business model is validated. Founders scale operations before the foundations are in place.
 
 ## How We Work
 
