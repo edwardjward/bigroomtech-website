@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" href="/images/logo-black.png">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<title>Join our network | Big Room Tech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="/images/full-logo-black.png" alt="Big Room Tech"></a>
+      <div class="nav-links">
+        <a href="about.html">About us</a>
+        <a href="services.html">Services</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="contact.html" class="btn btn-primary">Get in touch</a>
+      </div>
+      <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="about.html">About us</a>
+      <a href="services.html">Services</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="contact.html">Get in touch</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-tag">Consultant network</div>
+    <h1 class="hero-headline">Maximise your potential as a specialist</h1>
+    <p class="hero-sub">Are you a senior tech professional? Join the <strong>Big Room Tech</strong> network and we'll bring you the right projects with growth-stage and PE-backed companies — matched to your skills, not spray-and-pray.</p>
+    <div class="hero-ctas">
+      <a href="#apply" class="btn btn-primary">Join the network</a>
+      <a href="#how-it-works" class="btn btn-outline">How it works</a>
+    </div>
+    <ul class="hero-ticks">
+      <li>Free to join</li>
+      <li>No commitment</li>
+      <li>We only reach out when there's a real project</li>
+    </ul>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how-it-works" class="steps-section">
+    <div class="steps-inner">
+      <div class="section-label">The process</div>
+      <h2 class="section-title">How it works</h2>
+      <p class="section-sub">Four simple steps from application to your first matched project.</p>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <h3>Apply</h3>
+          <p>Submit your details and CV below.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <h3>Vetting call</h3>
+          <p>A short call to confirm your experience and what you're looking for.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <h3>Into the network</h3>
+          <p>Approved specialists join our vetted talent pool.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">04</div>
+          <h3>Matched to projects</h3>
+          <p>We reach out when a client role fits you. No spam, no obligation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLICATION FORM -->
+  <section id="apply" class="apply-section">
+    <div class="apply-inner">
+      <div class="section-label">Apply</div>
+      <h2 class="section-title">Consultant Application</h2>
+      <p class="section-sub">Fill out the form below and upload your CV to get started.</p>
+
+      <form
+        class="contact-form apply-form"
+        id="applyForm"
+        name="consultant-application"
+        method="POST"
+        data-netlify="true"
+        enctype="multipart/form-data"
+        novalidate
+      >
+        <input type="hidden" name="form-name" value="consultant-application" />
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="firstName" required placeholder="First name" />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" required placeholder="Last name" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required placeholder="you@company.com" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Your phone number" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="linkedin">LinkedIn Profile URL *</label>
+          <input type="url" id="linkedin" name="linkedin" required placeholder="https://www.linkedin.com/in/your-profile" />
+        </div>
+
+        <div class="form-group">
+          <label for="location">Location / Time zone *</label>
+          <input type="text" id="location" name="location" required placeholder="e.g. London, UK (GMT)" />
+        </div>
+
+        <div class="form-group">
+          <label for="roleAndStack">What role are you aiming for next, and which tech stack do you prefer? *</label>
+          <textarea id="roleAndStack" name="roleAndStack" required placeholder="E.g., Senior Full Stack Developer with React, Node.js, and PostgreSQL"></textarea>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="availability">Availability *</label>
+            <select id="availability" name="availability" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="Immediately">Immediately</option>
+              <option value="Within 2 weeks">Within 2 weeks</option>
+              <option value="Within a month">Within a month</option>
+              <option value="Just exploring">Just exploring</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="rate">Expected day rate or salary *</label>
+            <input type="text" id="rate" name="rate" required placeholder="E.g., £500/day or £70k/year" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="cv">Upload CV (PDF only, max 5MB) *</label>
+          <input type="file" id="cv" name="cv" accept="application/pdf,.pdf" required />
+          <p class="form-hint" id="cvHint">Please attach a PDF, up to 5MB.</p>
+        </div>
+
+        <p class="form-error" id="applyError" hidden></p>
+
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start; padding:14px 32px;">Submit application</button>
+      </form>
+
+      <div class="apply-success" id="applySuccess" hidden>
+        <h3>Thanks — we've received your application.</h3>
+        <p>We'll be in touch if there's a fit.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><img src="/images/full-logo-white.png" alt="Big Room Tech"></a>
+        <p>Join our newsletter to stay up to date.</p>
+        <form class="newsletter-form" id="newsletterForm" name="newsletter" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="newsletter" />
+          <input type="email" name="email" placeholder="Enter your email" required />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <p class="footer-legal">By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="about.html">About us</a>
+          <a href="services.html">Services</a>
+          <a href="blogs.html">Blogs</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:+13054907748">+1 (305) 490 7748</a>
+          <a href="mailto:info@bigroomtech.com">info@bigroomtech.com</a>
+          <p>111 NE 1st St, 8th Floor,<br>Miami, FL 33132</p>
+        </div>
+        <div class="footer-col">
+          <h4>Follow us</h4>
+          <a href="https://x.com/big_room_tech" target="_blank">X (Twitter)</a>
+          <a href="https://www.linkedin.com/company/big-room-tech/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 Big Room Tech LLC</p></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

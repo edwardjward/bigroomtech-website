@@ -722,6 +722,133 @@ a { color: inherit; text-decoration: none; }
   font-weight: 300;
 }
 
+/* =============================================
+   JOIN PAGE
+   ============================================= */
+.hero-ticks {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gray-700);
+}
+.hero-ticks li {
+  position: relative;
+  padding-left: 20px;
+}
+.hero-ticks li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--black);
+  font-weight: 700;
+}
+
+.steps-section {
+  background: var(--gray-50);
+  padding: 80px 24px;
+}
+.steps-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+.steps-inner .section-sub { margin: 0 auto 48px; }
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  text-align: left;
+}
+.step-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  box-shadow: var(--shadow);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.step-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+.step-num {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--gray-500);
+  margin-bottom: 16px;
+}
+.step-card h3 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+.step-card p {
+  font-size: 14px;
+  color: var(--gray-700);
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.apply-section {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 100px 24px 100px;
+}
+.apply-inner .section-sub { max-width: 100%; margin-left: 0; margin-right: 0; }
+.apply-form input[type="file"] {
+  padding: 10px 12px;
+  background: var(--white);
+  cursor: pointer;
+}
+.form-hint {
+  font-size: 12px;
+  color: var(--gray-500);
+  margin-top: 2px;
+}
+.form-error {
+  background: #fde8e8;
+  color: #7a1a1a;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  font-size: 14px;
+  margin: 0;
+}
+.apply-success {
+  background: var(--gray-50);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  text-align: center;
+}
+.apply-success h3 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.apply-success p {
+  color: var(--gray-700);
+  font-size: 15px;
+}
+
+@media (max-width: 900px) {
+  .steps-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .steps-grid { grid-template-columns: 1fr; }
+  .hero-ticks { gap: 14px; font-size: 12px; }
+}
+
 /* About CTA */
 .about-cta {
   text-align: center;
