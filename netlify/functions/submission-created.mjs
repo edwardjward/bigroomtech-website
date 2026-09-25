@@ -15,7 +15,7 @@ const buildAutoReplyHtml = (firstName) => `
     <p>In the meantime, feel free to explore our work at <a href="https://bigroomtech.com">bigroomtech.com</a>.</p>
     <p>Best,<br/>The Big Room Tech team</p>
     <hr style="border:none;border-top:1px solid #eee;margin:24px 0"/>
-    <p style="font-size:12px;color:#888">Big Room Tech · Porto &amp; Miami</p>
+    <p style="font-size:12px;color:#888">Big Room Tech</p>
   </div>
 `;
 
@@ -32,7 +32,7 @@ Best,
 The Big Room Tech team
 
 -
-Big Room Tech · Porto & Miami
+Big Room Tech
 `;
 
 export default async (req) => {
